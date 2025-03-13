@@ -409,4 +409,14 @@ require("plugins.cyberdream"),
 -- Apply colorscheme automatically
 vim.cmd.colorscheme "cyberdream"
 ```
+## Neovim buffer delete package 
+This allows you to close the current file opended in neovim when multiple file is opened in neovim
+```
+require('lazy').setup({
+  {
+    "famiu/bufdelete.nvim"  -- Plugin to delete buffers
+  },
+  -- Other plugins...
+})
 
+```
