@@ -237,3 +237,10 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 ```
 </details>
 
+# My neovim keyboard short cuts:
+ctrl + w = switches focus between the Neotree and neovim text editor 
+ctrl + c = allows you to type neovim commands
+/search = / and then type the word that you want to search in your current file in neovim
+:q! = will not save any changes
+:wq = will write changes and then quits neovim
+:w =  will save the file without quitting the neovim
