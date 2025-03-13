@@ -273,6 +273,22 @@ Action	Command
 Action	Command
 - Paste after cursor	"+p
 - Paste before cursor	"+P
+### select and delete in neovim
+Selecting Text in Neovim    
+Neovim has different selection modes:
+- Character-wise Selection (Visual Mode)
+  - Press v → Move cursor to select characters.
+  - Press d → Delete the selection.
+- Line-wise Selection (Visual Line Mode)
+  - Press V → Select entire lines.
+  - Press d → Delete the selected lines.
+- Block-wise Selection (Visual Block Mode)
+  - Press Ctrl + v → Select a block of text (column selection).
+  - Press d → Delete the selected block.
+- Action	Key Combination
+  - Select text	v (character) / V (line) / Ctrl + v (block)
+  - Copy selection	y
+  - Cut selection	d
 
 
 # neovim Trouble shooting
