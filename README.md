@@ -300,6 +300,7 @@ require('lazy').setup({
 
 ```
 ## Neovim Neotree setup
+- init.lua file
 ```
 require('lazy').setup({
 {
@@ -324,7 +325,18 @@ require('lazy').setup({
   end
 },
 })
+
+-- Load additional plugin configs
+require("plugins.neotree")
 ``` 
+- lua/plugins/neotree.lua
+```
+vim.api.nvim_create_autocmd("VimEnter", {
+  callback = function()
+    require("neo-tree.command").execute({ toggle = true, dir = vim.loop.cwd() })
+  end,
+})
+```
 ## Neovim theme setup 
 Theme link : ```https://github.com/scottmckendry/cyberdream.nvim?tab=readme-ov-file```
 ### lualine.lua
