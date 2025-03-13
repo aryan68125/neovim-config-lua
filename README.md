@@ -255,3 +255,59 @@ Run these neovim commands to resolve this issue
 :Lazy update
 :TSUpdate
 
+# Neovim setup
+## Neovim Neotree setup
+```
+require('lazy').setup({
+{
+  "nvim-neo-tree/neo-tree.nvim",
+  branch = "v3.x",
+  dependencies = {
+    "nvim-lua/plenary.nvim",
+    "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+    "MunifTanjim/nui.nvim",
+    -- {"3rd/image.nvim", opts = {}}, -- Optional image support in preview window: See `# Preview Mode` for more information
+  }
+},
+{
+  "nvim-treesitter/nvim-treesitter",
+  run = ":TSUpdate",
+  config = function()
+    require("nvim-treesitter.configs").setup {
+      ensure_installed = { "lua" },
+      highlight = { enable = true },
+      indent = { enable = true },
+    }
+  end
+},
+})
+``` 
+## Neovim theme setup 
+Theme link : ```https://github.com/scottmckendry/cyberdream.nvim?tab=readme-ov-file```
+### lualine.lua
+```
+return {
+  "nvim-lualine/lualine.nvim",
+  dependencies = { "nvim-tree/nvim-web-devicons" }, -- Optional but recommended
+  config = function()
+    require("lualine").setup({
+      options = { theme = "auto" }
+    })
+  end,
+}
+```
+### init.lua 
+```
+require('lazy').setup({
+{
+    "scottmckendry/cyberdream.nvim",
+    lazy = false,
+    priority = 1000,
+},
+require("plugins.lualine"),
+})
+
+-- Apply colorscheme automatically
+vim.cmd.colorscheme "cyberdream"
+```
+
