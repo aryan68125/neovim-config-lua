@@ -324,6 +324,20 @@ return {
   end,
 }
 ```
+### cyberdream.lua
+```
+return {
+  "askfiy/cyberdream.nvim",
+  lazy = false,
+  priority = 1000,
+  config = function()
+    require("cyberdream").setup({
+      transparent = true, -- Enable transparency
+    })
+    vim.cmd("colorscheme cyberdream")
+  end
+}
+```
 ### init.lua 
 ```
 require('lazy').setup({
@@ -333,6 +347,7 @@ require('lazy').setup({
     priority = 1000,
 },
 require("plugins.lualine"),
+require("plugins.cyberdream"),
 })
 
 -- Apply colorscheme automatically
