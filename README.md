@@ -248,6 +248,19 @@ press i = To start typing again in neovim
 :Lazy sync = Will sync your new lazy packages and install it in the neovim text editor
   - I, U, H, S will allow you to change between different tabs in you lazy package manager window 
 :Neotree = This will open a terminal directory tree just like in vs code for neovim
+### Copy and paste shortcuts in neovim
+**Copy (Yank)**
+Action	Normal Mode Keybinding
+Copy (yank) a line	yy
+Copy (yank) a word	yaw
+Copy (yank) from cursor to end of line	y$
+Copy (yank) a selected text (Visual Mode)	y
+Copy (yank) entire file	ggVGy
+
+**Paste**
+Action	Normal Mode Keybinding
+Paste after cursor	p
+Paste before cursor	P
 
 # neovim Trouble shooting
 ## If Neotree fails to open a file then 
