@@ -256,6 +256,8 @@ Run these neovim commands to resolve this issue
 :TSUpdate
 
 # Neovim setup
+Link to the gihub repo for neovim setup guide : https://github.com/hendrikmi/dotfiles/blob/main/nvim/lua/core/options.lua
+
 ## Lazy package manager setup
 ```
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
