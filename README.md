@@ -244,3 +244,5 @@ ctrl + c = allows you to type neovim commands
 :q! = will not save any changes
 :wq = will write changes and then quits neovim
 :w =  will save the file without quitting the neovim
+:Lazy sync = Will sync your new lazy packages and install it in the neovim text editor
+  - I, U, H, S will allow you to change between different tabs in you lazy package manager window 
