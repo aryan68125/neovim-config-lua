@@ -418,5 +418,8 @@ require('lazy').setup({
   },
   -- Other plugins...
 })
-
 ```
+## Neovim shortcut keys setup 
+To get the related config visit this link here : https://github.com/hendrikmi/dotfiles/blob/main/nvim/lua/core/keymaps.lua
+Put the file inside the directory lua/core/keymaps.lua
+
