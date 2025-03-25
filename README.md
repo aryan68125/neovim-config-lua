@@ -289,6 +289,8 @@ Neovim has different selection modes:
   - Select text	v (character) / V (line) / Ctrl + v (block)
   - Copy selection	y
   - Cut selection	d
+## NeoTree shortcuts:
+c -> Create a file with a new name while copying its contents inside of it 
 
 
 # neovim Trouble shooting
