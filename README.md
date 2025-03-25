@@ -291,7 +291,7 @@ Neovim has different selection modes:
   - Cut selection	d
 ## NeoTree shortcuts:
 c -> Create a file with a new name while copying its contents inside of it 
-
+b -> Rename a file
 
 # neovim Trouble shooting
 ## If Neotree fails to open a file then 
