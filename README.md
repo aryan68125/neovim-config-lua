@@ -238,17 +238,19 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 </details>
 
 # My neovim keyboard short cuts:
-ctrl + w = switches focus between the Neotree and neovim text editor 
-ctrl + c = allows you to type neovim commands
-press i = To start typing again in neovim
-/search = / and then type the word that you want to search in your current file in neovim
-:q! = will not save any changes
-:wq = will write changes and then quits neovim
-:w =  will save the file without quitting the neovim
-:Lazy sync = Will sync your new lazy packages and install it in the neovim text editor
+- ctrl + w = switches focus between the Neotree and neovim text editor 
+- ctrl + c = allows you to type neovim commands
+- press i = To start typing again in neovim
+- /search = / and then type the word that you want to search in your current file in neovim
+    - n : to move to next matched word
+    - N : to move to prevous matched word
+- :q! = will not save any changes
+- :wq = will write changes and then quits neovim
+- :w =  will save the file without quitting the neovim
+- :Lazy sync = Will sync your new lazy packages and install it in the neovim text editor
   - I, U, H, S will allow you to change between different tabs in you lazy package manager window 
-:Neotree = This will open a terminal directory tree just like in vs code for neovim
-:terminal = Open terminal inside of neovim
+- :Neotree = This will open a terminal directory tree just like in vs code for neovim
+- :terminal = Open terminal inside of neovim
 
 ### Copy and paste shortcuts in neovim
 #### copy paste using internal registers
