@@ -290,8 +290,15 @@ Neovim has different selection modes:
   - Copy selection	y
   - Cut selection	d
 ## NeoTree shortcuts:
-c -> Create a file with a new name while copying its contents inside of it 
-b -> Rename a file
+### File and directory management:
+For more info visit this link : https://lyz-code.github.io/blue-book/neotree/
+a: Create a new file or directory. Add a / to the end of the name to make a directory.
+d: Delete the selected file or directory
+r: Rename the selected file or directory
+y: Mark file to be copied (supports visual selection)
+x: Mark file to be cut (supports visual selection)
+m: Move the selected file or directory
+c: Copy the selected file or directory
 
 # neovim Trouble shooting
 ## If Neotree fails to open a file then 
