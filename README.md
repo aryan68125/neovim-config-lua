@@ -249,7 +249,8 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 - :w =  will save the file without quitting the neovim
 - :Lazy sync = Will sync your new lazy packages and install it in the neovim text editor
   - I, U, H, S will allow you to change between different tabs in you lazy package manager window 
-- :Neotree = This will open a terminal directory tree just like in vs code for neovim
+- :Neotree = This will open a terminal directory tree just like in vs code for neovim (default)
+- <space> + e = This will open neotree a terminal directory tree just like vs code for neovim (Nvchad)
 - :terminal = Open terminal inside of neovim
 
 ### Copy and paste shortcuts in neovim
