@@ -255,6 +255,7 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 ## nvchad installation process : 
 Follow this link to install nvchad ricing after installing neovim in your system.        
 ```https://github.com/NvChad/NvChad```
+## neovim (nvchad installation) shortcuts
 - <space> + e = This will open neotree a terminal directory tree just like vs code for neovim (Nvchad)
 - $ : Moves the cursor to the end of the line.
 - ^ : Moves the cusrsor to the start of the line.
@@ -264,6 +265,9 @@ Follow this link to install nvchad ricing after installing neovim in your system
 - . : This is used to comment or uncomment a line of code in nvchad neovim editor
 - <space> + / : This will comment or uncomment a line in neovim.
 - <space> + ff : This will open up a find file browser in your current directory.
+## neotree (nvchad installation) shortcuts
+- r : To rename a file.
+- a : To create a new file in your current directory.
 
 ### Copy and paste shortcuts in neovim
 #### copy paste using internal registers
