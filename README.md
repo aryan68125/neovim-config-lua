@@ -259,6 +259,7 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 - <space> + v : This will open a terminal inside neoivim with a vertical split.
 - <space> + h : This will open a terminal inside neovim with a horizontal split
 - . : This is used to comment or uncomment a line of code in nvchad neovim editor
+- <space> + / : This will comment or uncomment a line in neovim.
 
 ### Copy and paste shortcuts in neovim
 #### copy paste using internal registers
