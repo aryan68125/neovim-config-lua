@@ -278,6 +278,7 @@ Follow this link to install nvchad ricing after installing neovim in your system
 The link to the Gitsigns = ```https://github.com/lewis6991/gitsigns.nvim```     
 - <space> + g + p : This opens up git preview in a separate pop.
 - <space> + c + l + b : When you are in normal mode this tells you who and when a line in a file has been changed by someone in the repository or in a branch in github and gitlab.
+- <space> + diff : This will tell yout difference in your local and you git copy of the currently opened file.
 
 ### Copy and paste shortcuts in neovim
 #### copy paste using internal registers
