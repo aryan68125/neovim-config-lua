@@ -251,7 +251,10 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
   - I, U, H, S will allow you to change between different tabs in you lazy package manager window 
 - :Neotree = This will open a terminal directory tree just like in vs code for neovim (default)
 - :terminal = Open terminal inside of neovim
-# Nvchad neovim keyboard short cuts : 
+# Nvchad neovim keyboard short cuts :
+## nvchad installation process : 
+Follow this link to install nvchad ricing after installing neovim in your system.        
+```https://github.com/NvChad/NvChad```
 - <space> + e = This will open neotree a terminal directory tree just like vs code for neovim (Nvchad)
 - $ : Moves the cursor to the end of the line.
 - ^ : Moves the cusrsor to the start of the line.
