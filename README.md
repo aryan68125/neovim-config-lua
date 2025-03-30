@@ -268,6 +268,9 @@ Follow this link to install nvchad ricing after installing neovim in your system
 ## neotree (nvchad installation) shortcuts
 - r : To rename a file.
 - a : To create a new file in your current directory.
+- c : To copy a file in neotree
+- p : To paste a file in a neotree
+- d : To delete a file in neotree
 
 ### Copy and paste shortcuts in neovim
 #### copy paste using internal registers
