@@ -271,6 +271,7 @@ Follow this link to install nvchad ricing after installing neovim in your system
 - c : To copy a file in neotree
 - p : To paste a file in a neotree
 - d : To delete a file in neotree
+- m : Its used mark files that you are currently working on and helps you distinguish and identify the files that are currently important to you.
 
 ### Copy and paste shortcuts in neovim
 #### copy paste using internal registers
