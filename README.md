@@ -254,7 +254,8 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 # Nvchad neovim keyboard short cuts : 
 - <space> + e = This will open neotree a terminal directory tree just like vs code for neovim (Nvchad)
 - $ : Moves the cursor to the end of the line.
-- <space> + t + h : This brings up the nvchad theme configurator using this you can set yout desired theme in your neovim editor. 
+- <space> + t + h : This brings up the nvchad theme configurator using this you can set yout desired theme in your neovim editor.
+- <space> + v : This will open a terminal inside neoivim.
 
 ### Copy and paste shortcuts in neovim
 #### copy paste using internal registers
