@@ -265,6 +265,7 @@ Follow this link to install nvchad ricing after installing neovim in your system
 - . : This is used to comment or uncomment a line of code in nvchad neovim editor.
 - <space> + / : This will comment or uncomment a line in neovim.
 - <space> + ff : This will open up a find file browser in your current directory.
+
 ## neotree (nvchad installation) shortcuts
 - r : To rename a file.
 - a : To create a new file in your current directory.
