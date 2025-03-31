@@ -261,18 +261,18 @@ Follow this link to install nvchad ricing after installing neovim in your system
 - ^ : Moves the cusrsor to the start of the line.
 - <space> + t + h : This brings up the nvchad theme configurator using this you can set yout desired theme in your neovim editor.
 - <space> + v : This will open a terminal inside neoivim with a vertical split.
-- <space> + h : This will open a terminal inside neovim with a horizontal split
-- . : This is used to comment or uncomment a line of code in nvchad neovim editor
+- <space> + h : This will open a terminal inside neovim with a horizontal split.
+- . : This is used to comment or uncomment a line of code in nvchad neovim editor.
 - <space> + / : This will comment or uncomment a line in neovim.
 - <space> + ff : This will open up a find file browser in your current directory.
 ## neotree (nvchad installation) shortcuts
 - r : To rename a file.
 - a : To create a new file in your current directory.
-- c : To copy a file in neotree
-- p : To paste a file in a neotree
-- d : To delete a file in neotree
+- c : To copy a file in neotree.
+- p : To paste a file in a neotree.
+- d : To delete a file in neotree.
 - m : Its used mark files that you are currently working on and helps you distinguish and identify the files that are currently important to you.
-- <space> + c + h : This opens up the cheatsheet for all the shortcuts that neovim nvchad installation has to offer
+- <space> + c + h : This opens up the cheatsheet for all the shortcuts that neovim nvchad installation has to offer.
 
 ## git hub keyboard shortcuts for neovim
 ### using gitsigns
