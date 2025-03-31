@@ -272,7 +272,8 @@ Follow this link to install nvchad ricing after installing neovim in your system
 - p : To paste a file in a neotree
 - d : To delete a file in neotree
 - m : Its used mark files that you are currently working on and helps you distinguish and identify the files that are currently important to you.
-- <space> + c + h : This opens up the cheatsheet for all the shortcuts that neovim nvchad installation has to offer 
+- <space> + c + h : This opens up the cheatsheet for all the shortcuts that neovim nvchad installation has to offer
+
 ## git hub keyboard shortcuts for neovim
 ### using gitsigns
 The link to the Gitsigns = ```https://github.com/lewis6991/gitsigns.nvim```     
