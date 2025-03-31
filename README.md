@@ -296,6 +296,7 @@ Action	Normal Mode Keybinding
 Action	Normal Mode Keybinding
 - Paste after cursor	p
 - Paste before cursor	P
+
 #### Copy paste using clipboard 
 **Copy (Yank) to System Clipboard**
 Action	Command
