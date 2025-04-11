@@ -338,6 +338,10 @@ x: Mark file to be cut (supports visual selection)
 m: Move the selected file or directory
 c: Copy the selected file or directory
 
+## Neovim terminal tool for git operations
+- lazygit
+- here is the github link: ```https://github.com/jesseduffield/lazygit.git```
+
 # neovim Trouble shooting
 ## If Neotree fails to open a file then 
 Run these neovim commands to resolve this issue
