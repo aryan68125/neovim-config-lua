@@ -321,6 +321,9 @@ Neovim has different selection modes:
   - Select text	v (character) / V (line) / Ctrl + v (block)
   - Copy selection	y
   - Cut selection	d
+- Comment multiple lines in neovim:
+    - Ctrl + v + 2j + Shift i + # + esc : Here ```2``` is the number of lines that you want to select and ```#``` is the character used in python to comment a line of code.
+
 ## NeoTree shortcuts:
 ### File and directory management:
 For more info visit this link : https://lyz-code.github.io/blue-book/neotree/
