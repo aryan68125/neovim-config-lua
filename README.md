@@ -256,16 +256,16 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 Follow this link to install nvchad ricing after installing neovim in your system.        
 ```https://github.com/NvChad/NvChad```
 ## neovim (nvchad installation) shortcuts
-- <space> + e = This will open neotree a terminal directory tree just like vs code for neovim (Nvchad)
+- space + e = This will open neotree a terminal directory tree just like vs code for neovim (Nvchad)
 - $ : Moves the cursor to the end of the line.
 - ^ : Moves the cusrsor to the start of the line.
-- <space> + t + h : This brings up the nvchad theme configurator using this you can set yout desired theme in your neovim editor.
-- <space> + v : This will open a terminal inside neoivim with a vertical split.
-- <space> + h : This will open a terminal inside neovim with a horizontal split.
+- space + t + h : This brings up the nvchad theme configurator using this you can set yout desired theme in your neovim editor.
+- space + v : This will open a terminal inside neoivim with a vertical split.
+- space + h : This will open a terminal inside neovim with a horizontal split.
 - . : This is used to comment or uncomment a line of code in nvchad neovim editor.
-- <space> + / : This will comment or uncomment a line in neovim.
-- ctrl + v + j or k + <space> + / : this will comment multiple lines in neovim. 
-- <space> + ff : This will open up a find file browser in your current directory.
+- space + / : This will comment or uncomment a line in neovim.
+- ctrl + v + j or k + space + / : this will comment multiple lines in neovim. 
+- space + ff : This will open up a find file browser in your current directory.
 - ctrl + v + > or < : This will allow you to indent multiple lines using this shortcut
 
 ## neotree (nvchad installation) shortcuts
@@ -275,22 +275,22 @@ Follow this link to install nvchad ricing after installing neovim in your system
 - p : To paste a file in a neotree.
 - d : To delete a file in neotree.
 - m : Its used mark files that you are currently working on and helps you distinguish and identify the files that are currently important to you.
-- <space> + c + h : This opens up the cheatsheet for all the shortcuts that neovim nvchad installation has to offer.
+- space + c + h : This opens up the cheatsheet for all the shortcuts that neovim nvchad installation has to offer.
 
 ## git hub keyboard shortcuts for neovim
 ### using gitsigns
 The link to the Gitsigns = ```https://github.com/lewis6991/gitsigns.nvim```     
-- <space> + g + p : This opens up git preview in a separate pop.
-- <space> + c + l + b : When you are in normal mode this tells you who and when a line in a file has been changed by someone in the repository or in a branch in github and gitlab.
-- <space> + diff : This will tell yout difference in your local and you git copy of the currently opened file.
+- space + g + p : This opens up git preview in a separate pop.
+- space + c + l + b : When you are in normal mode this tells you who and when a line in a file has been changed by someone in the repository or in a branch in github and gitlab.
+- space + diff : This will tell yout difference in your local and you git copy of the currently opened file.
 ### using lazygit
 When setting up lazygit make sure you have installed lazygit in your system before integrating it in you nvchad setup and configuring these keymaps.
 Link to the github source code page is here : ```https://github.com/jesseduffield/lazygit.git```
-- vim.keymap.set("n","<leader>lg",":LazyGit",{})
-- vim.keymap.set("n","<leader>lgc",":LazyGitConfig",{})
-- vim.keymap.set("n","<leader>lgcf",":LazyGitCurrentFile",{})
-- vim.keymap.set("n","<leader>lgf",":LazyGitFilter",{})
-- vim.keymap.set("n","<leader>lgfcf",":LazyGitFilterCurrentFile",{})
+- vim.keymap.set("n","leader + lg",":LazyGit",{})
+- vim.keymap.set("n","leader + lgc",":LazyGitConfig",{})
+- vim.keymap.set("n","leader + lgcf",":LazyGitCurrentFile",{})
+- vim.keymap.set("n","leader + lgf",":LazyGitFilter",{})
+- vim.keymap.set("n","leader + lgfcf",":LazyGitFilterCurrentFile",{})
 
 ### Copy and paste shortcuts in neovim
 #### copy paste using internal registers
