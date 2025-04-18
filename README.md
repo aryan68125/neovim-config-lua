@@ -284,6 +284,8 @@ The link to the Gitsigns = ```https://github.com/lewis6991/gitsigns.nvim```
 - <space> + c + l + b : When you are in normal mode this tells you who and when a line in a file has been changed by someone in the repository or in a branch in github and gitlab.
 - <space> + diff : This will tell yout difference in your local and you git copy of the currently opened file.
 ### using lazygit
+When setting up lazygit make sure you have installed lazygit in your system before integrating it in you nvchad setup and configuring these keymaps.
+Link to the github source code page is here : ```https://github.com/jesseduffield/lazygit.git```
 - vim.keymap.set("n","<leader>lg",":LazyGit",{})
 - vim.keymap.set("n","<leader>lgc",":LazyGitConfig",{})
 - vim.keymap.set("n","<leader>lgcf",":LazyGitCurrentFile",{})
