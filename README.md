@@ -264,7 +264,9 @@ Follow this link to install nvchad ricing after installing neovim in your system
 - <space> + h : This will open a terminal inside neovim with a horizontal split.
 - . : This is used to comment or uncomment a line of code in nvchad neovim editor.
 - <space> + / : This will comment or uncomment a line in neovim.
+- ctrl + v + j or k + <space> + / : this will comment multiple lines in neovim. 
 - <space> + ff : This will open up a find file browser in your current directory.
+- ctrl + v + > or < : This will allow you to indent multiple lines using this shortcut
 
 ## neotree (nvchad installation) shortcuts
 - r : To rename a file.
