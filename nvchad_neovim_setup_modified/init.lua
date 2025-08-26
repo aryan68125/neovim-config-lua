@@ -13,6 +13,13 @@ vim.opt.rtp:prepend(lazypath)
 
 local lazy_config = require "configs.lazy"
 
+-- Line numbers
+vim.opt.number = true         -- absolute line number for the current line
+vim.opt.relativenumber = true -- relative line numbers for other lines
+
+-- Highlight current line
+vim.opt.cursorline = true
+
 -- load plugins
 require("lazy").setup({
   {
@@ -43,6 +50,12 @@ require("lazy").setup({
         indent = { enable = true },
       }
     end
+  },
+
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    main = "ibl",
+    opts = {},
   },
   --Load theme related plugins 
   --require("plugins.lualine"), --not needed since {import = "plugins"} is already being declared below
