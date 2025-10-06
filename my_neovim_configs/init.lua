@@ -1,5 +1,12 @@
+
 require 'core.options'
 require 'core.keymaps'
+
+-- Wrap and break lines nicely
+vim.opt.wrap = true
+vim.opt.linebreak = true
+vim.opt.showbreak = "↪ "
+vim.opt.breakindent = true
 
 -- [[ Install `lazy.nvim` plugin manager ]]
 --    See `:help lazy.nvim.txt` or https://github.com/folke/lazy.nvim for more info
@@ -71,6 +78,126 @@ require("plugins.neotree")
 -- Apply colorscheme automatically
 vim.cmd.colorscheme "cyberdream"
 -- NOTE: Here is where you install your plugins. END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
