@@ -65,6 +65,9 @@ vim.keymap.set('n', '<leader>k', ":m .-2<CR>==", opts)
 vim.keymap.set({ 'n', 'v' }, '<leader>y', [["+y]])
 vim.keymap.set('n', '<leader>Y', [["+Y]])
 
+--lazygit keymaps
+vim.keymap.set('n', '<leader>lg', '<cmd>LazyGit<CR>', { desc = "Open LazyGit" })
+
 -- Toggle diagnostics
 --local diagnostics_active = true
 

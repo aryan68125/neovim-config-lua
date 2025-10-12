@@ -1,4 +1,3 @@
-
 require 'core.options'
 require 'core.keymaps'
 
@@ -55,6 +54,17 @@ require('lazy').setup({
   end
 },
 	--Neotree related configuration ENDS
+
+-- lazygit related configurations STARTS
+{
+  "kdheepak/lazygit.nvim",
+  dependencies = {
+    "nvim-lua/plenary.nvim",
+  },
+  config = function()
+  end
+},
+-- lazygit related configurations ENDS
 	
     --Theme related configuration STARTS
 {
@@ -78,126 +88,6 @@ require("plugins.neotree")
 -- Apply colorscheme automatically
 vim.cmd.colorscheme "cyberdream"
 -- NOTE: Here is where you install your plugins. END
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
